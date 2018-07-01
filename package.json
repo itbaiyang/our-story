@@ -1,0 +1,36 @@
+{
+  "name": "ourstory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "glob": "^7.1.2",
+    "nodemon": "^1.17.5",
+    "path": "^0.12.7",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
+    "vue-style-loader": "^4.1.0",
+    "webpack": "^4.14.0"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.10",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0"
+  }
+}
