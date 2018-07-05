@@ -31,6 +31,7 @@
     "koa-static": "^5.0.0",
     "lodash": "^4.17.10",
     "mysql2": "^1.5.3",
-    "sequelize": "^4.38.0"
+    "sequelize": "^4.38.0",
+    "stylus": "^0.54.5"
   }
 }

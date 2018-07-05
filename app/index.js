@@ -1,7 +1,7 @@
 import Koa from 'koa'
 import session from 'koa-session'
 import router from './route'
-import staticServer from 'koa-static'
+// import staticServer from 'koa-static'
 
 const app = new Koa()
 
@@ -19,7 +19,7 @@ app.use(session(CONFIG, app))
 
 app.use(router.routes(), router.allowedMethods())
 
-app.use(staticServer(__dirname + '/dist'));
+// app.use(staticServer(__dirname + '/dist'));
 app.listen(3000)
 
 export default app

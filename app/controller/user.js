@@ -26,8 +26,14 @@ const logIn = async (ctx, _next) => {
   }
 };
 
+const register = async (ctx, _next) => {  
+  console.log(ctx.request)
+  const query = ctx.request.query
+  await models.User.create
+}
 export default {
   index,
   logIn,
-  list
+  list,
+  register   
 };
